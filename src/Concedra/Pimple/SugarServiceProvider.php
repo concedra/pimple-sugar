@@ -18,7 +18,7 @@ class SugarServiceProvider implements ServiceProviderInterface
             $sugar = new Rest();
             $sugar->setUrl($c['sugar.url'])
                 ->setUsername($c['sugar.username'])
-                ->setPassword($c(['sugar.password'])
+                ->setPassword($c['sugar.password'])
                 ->connect();
 
             return $sugar;

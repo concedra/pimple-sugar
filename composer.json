@@ -1,0 +1,20 @@
+{
+    "name": "concedra/pimple-sugar",
+    "description": "Provides SugarCRM 7 REST Client integration for Pimple DI",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Besel",
+            "email": "besel@concedra.de"
+        }
+    ],
+    "require": {
+        "spinegar/sugar7wrapper": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Concedra": "src"
+        }
+    }
+}

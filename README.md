@@ -11,7 +11,7 @@ Provides integration with [SugarCRM REST Client for SugarCRM 7](https://github.c
 
 ## Services
 
-*  **sugar**: The Mustache instance.
+*  **sugar**: [Spinegar\Sugar7Wrapper\Rest](/spinegar/sugarcrm7-api-wrapper-class/blob/master/src/Spinegar/Sugar7Wrapper/Rest.php) instance.
 
 ## Usage Example
 

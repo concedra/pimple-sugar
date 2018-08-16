@@ -1,6 +1,8 @@
 {
     "name": "concedra/pimple-sugar",
+    "type": "library",
     "description": "Provides SugarCRM 7 REST Client integration for Pimple DI",
+    "keywords": [ "sugarcrm", "sugar", "pimple", "serviceprovider"],
     "license": "MIT",
     "authors": [
         {
@@ -9,6 +11,8 @@
         }
     ],
     "require": {
+        "php": ">=5.5.9",
+        "pimple/pimple": "^3.0",
         "spinegar/sugar7wrapper": "dev-master"
     },
     "minimum-stability": "dev",

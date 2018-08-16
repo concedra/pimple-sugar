@@ -4,6 +4,7 @@ namespace Concedra\Pimple;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
+use Spinegar\Sugar7Wrapper\Rest;
 
 /**
  * Provides SugarCRM 7 REST Client integration for Pimple DI

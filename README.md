@@ -5,9 +5,9 @@ Provides integration with [SugarCRM REST Client for SugarCRM 7](https://github.c
 
 ## Parameters
 
-*  **sugar.url**: Extension for template and partials files. Defaults to `mustache`.
-*  **sugar.username**: An array of options to be passed to the `Mustache_Engine` constructor.
-*  **sugar.password**: Path to directory containing the templates.
+*  **sugar.url**: Host URL to your sugar instance.
+*  **sugar.username**: Username of your instance.
+*  **sugar.password**: Password of your instance.
 
 ## Services
 
